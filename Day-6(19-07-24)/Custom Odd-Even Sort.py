@@ -4,7 +4,7 @@ def custom_odd_even_sort(arr):
     even_numbers = [x for x in arr if x % 2 == 0]
     
     # Sort odd numbers in descending order
-    odd_numbers.sort(reverse=True)
+    odd_numbers.sort(reverse=True) 
     
     # Sort even numbers in ascending order
     even_numbers.sort()
